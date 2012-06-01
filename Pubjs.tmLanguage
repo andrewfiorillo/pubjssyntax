@@ -40,6 +40,12 @@
 			<key>patterns</key>
 			<array>
 				<dict>
+					<key>match</key>
+					<string>\b(foreach|var|print)\b</string>
+					<key>name</key>
+					<string>keyword</string>
+				</dict>
+				<dict>
 					<key>include</key>
 					<string>source.js</string>
 				</dict>
@@ -54,6 +60,12 @@
 			<string>source.js.embedded.html.pub</string>
 			<key>patterns</key>
 			<array>
+				<dict>
+					<key>match</key>
+					<string>\b(foreach|var|print)\b</string>
+					<key>name</key>
+					<string>keyword</string>
+				</dict>
 				<dict>
 					<key>include</key>
 					<string>source.js</string>
